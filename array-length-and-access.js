@@ -1,9 +1,9 @@
 function findLength(array) {
-  return array.length
+  return array.length;
 }
 
 function accessLastItem(array) {
-  // your code goes here
+  return array[array.length-1];
 }
 
 
