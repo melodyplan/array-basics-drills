@@ -1,7 +1,8 @@
 function divisibleBy5(array) {
   return array.find(function (isDivisible) {
     return isDivisible % 5  === 0;
-});
+  });
+};
 
 
 /* From here down, you are not expected to 
