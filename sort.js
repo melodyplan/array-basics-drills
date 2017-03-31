@@ -1,5 +1,5 @@
 function greatestToLeast(array) {
-  array.sort(function (a, b) {
+  return array.sort(function (a, b) {
     return b - a;
   });
 };
