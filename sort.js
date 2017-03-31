@@ -1,10 +1,8 @@
 function greatestToLeast(array) {
-  return function array(a, b) {
+  array.sort(function (a, b) {
     return b - a;
-  }
+  });
 };
-
-greatestToLeast.sort(array);
 
 
 
