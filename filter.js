@@ -1,15 +1,11 @@
 function shortWords(array) {
   return array.filter(function (words) {
     return words.length < 5;
-  )};
+  });
 };
 
-/*for some reason when I wrote this bit the curriculum wasn't 
-taking it. i was both pleased and confused when the solution 
-was basically the same as mine. does it have to do with the
-spaces?*/ 
-
-
+//omg I have to switch the curly bracket and closing parenthesis.
+//JS is so fickle lol.
 
 
 /* From here down, you are not expected to 
